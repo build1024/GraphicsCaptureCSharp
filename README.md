@@ -2,9 +2,19 @@
 
 Sample of C# desktop application project using features of [Windows.Graphics.Capture](https://docs.microsoft.com/ja-jp/windows/uwp/audio-video-camera/screen-capture) in WinRT API through a C++/WinRT bridge library.
 
-## Requirements: 
+## Requirements
 * Windows 10 (1903+)
 * Visual Studio 2019
+
+* Additional Components:
+    * Workloads:
+        * .NET desktop development (.NET デスクトップ開発)
+        * Desktop development with C++ (C++ によるデスクトップ開発)
+        * Universal Windows Platform development (ユニバーサル Windows プラットフォーム開発)
+    * Individual Components:
+        * Windows 10 SDK (10.0.18362.0+)
+
+* Install [C++/WinRT VSIX](https://marketplace.visualstudio.com/items?itemName=CppWinRTTeam.cppwinrt101804264)
 
 ## Introduction
 
