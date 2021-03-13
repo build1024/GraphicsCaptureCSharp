@@ -1,0 +1,12 @@
+namespace GraphicsCaptureBridge
+{
+    [default_interface]
+    runtimeclass Capture
+    {
+        Capture(Int64 ownerHwnd);
+        Windows.Foundation.IAsyncOperation<Boolean> StartCaptureForPickedWindowAsync();
+        void StopCapture();
+        void Resize();
+        Boolean IsCapturing();
+    }
+}
