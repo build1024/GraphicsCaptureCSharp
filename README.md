@@ -1,6 +1,6 @@
 # GraphicCaptureCSharp
 
-Sample of C# project using features of [Windows.Graphics.Capture](https://docs.microsoft.com/ja-jp/windows/uwp/audio-video-camera/screen-capture) in WinRT API through a C++/WinRT bridge library.
+Sample of C# desktop application project using features of [Windows.Graphics.Capture](https://docs.microsoft.com/ja-jp/windows/uwp/audio-video-camera/screen-capture) in WinRT API through a C++/WinRT bridge library.
 
 ## Requirements: 
 * Windows 10 (1903+)
@@ -9,7 +9,7 @@ Sample of C# project using features of [Windows.Graphics.Capture](https://docs.m
 ## Introduction
 
 This sample enables us to use features of Windows.Graphics.Capture in WinRT (Windows Runtime) API.
-First we prepare a C++/WinRT library project calling WinRT API, and then we call this library from a C# project, since it is very complicated to call this API directly from a C# project.
+First we prepare a C++/WinRT library project calling WinRT API, and then we call this library from a C# project, since it is very complicated to call this API directly from a C# desktop application project.
 
 Qiita (ja): https://qiita.com/everylittle/items/c80de379e644397ceabc
 
